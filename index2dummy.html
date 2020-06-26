@@ -75,10 +75,9 @@
         */
         const img_width = 500;
         const img_height = 200;
-        d3.select("rect").style("visibility","visible")
-            .style("width", img_width + "px")
+        d3.select("rect").style("width", img_width + "px")
             .style("height", img_height + "px");
-         console.log(d3.select("rect"));
+       console.log(d3.select("rect"));
 
         // creates a frame 600x600 px to work in, all elements shifted ↓ & → 50 px
         var svg = d3.select("body").append("svg")
